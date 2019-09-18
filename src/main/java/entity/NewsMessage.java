@@ -1,4 +1,4 @@
-package entity;
+﻿package entity;
 
 import java.util.List;
 
@@ -21,4 +21,5 @@ public class NewsMessage extends BaseMessage{
     public void setArticles(List<NewsItem> articles) {
         Articles = articles;
     }
+
 }
